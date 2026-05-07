@@ -1,4 +1,4 @@
-const REALMS = [
+jsxconst REALMS = [
   { name: "연기경(鍊氣境)", minPower: 0, desc: "기운을 다스리기 시작하는 단계" },
   { name: "축기경(築氣境)", minPower: 150, desc: "내공이 쌓여 형태를 갖추는 단계" },
   { name: "화경(化境)", minPower: 350, desc: "기운이 몸과 하나되는 단계" },
