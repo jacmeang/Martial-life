@@ -42,7 +42,8 @@ function loadFromStorage(key, fallback) {
   try {
     const saved = localStorage.getItem(key);
     return saved ? JSON.parse(saved) : fallback;
-  } catch { return fallback; }export default function MartialLife() {
+  } catch { return fallback; }
+  export default function MartialLife() {
   const [view, setView] = useState("profile");
   const [logs, setLogs] = useState(() => loadFromStorage("ml_logs", INITIAL_LOGS));
   const [skills, setSkills] = useState(() => loadFromStorage("ml_skills", INITIAL_SKILLS));
